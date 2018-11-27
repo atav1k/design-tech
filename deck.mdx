@@ -1,8 +1,8 @@
 import { Head } from 'mdx-deck'
 import { Image } from 'mdx-deck'
 import { Invert, Split, SplitRight, FullScreenCode } from 'mdx-deck/layouts'
-import Button from '../src/Button'
-export { future as theme } from 'mdx-deck/themes'
+import Button from './src/Button'
+export { dark as theme } from 'mdx-deck/themes'
 
 <Head>
   <title>Design Technologies-Systems</title>
@@ -27,11 +27,11 @@ export default Split
 ---
 export default SplitRight
 
-![https://pricelinelabs.github.io/design-system/color/](mdx.png)
+![https://pricelinelabs.github.io/design-system/color/](./docs/mdx.png)
 ## Library
 A central site that lets users understand what all is available across the design system
 
-    #### Also see [Priceline](https://pricelinelabs.github.io/design-system/color/)
+#### Also see [Priceline](https://pricelinelabs.github.io/design-system/color/)
 ---
 export default Invert
 
@@ -42,7 +42,6 @@ export default Invert
 <Button variant="primary" my={4}>Here it is</Button>
 
 ```jsx
-import Button from '../src/Button'
 
 # Button
 Core button component
@@ -62,7 +61,7 @@ Core button component
 ---
 export default SplitRight
 
-![](repo.png)
+![](./docs/repo.png)
 
 ## Package
 A decoupled repo that holds the Library, Components and Stories
@@ -120,7 +119,7 @@ Button.defaultProps = {
 ---
 export default SplitRight
 
-![](storybook.png)
+![](./docs/storybook.png)
 
 ## Sandbox
 A component builder that holds old and new patterns alongside specs
@@ -145,13 +144,27 @@ export default Split
 
 * *Overlaps across `/src` `/doc` & `/story`
 ---
-#### Design Tokens / Design Assets / Docsite / Tokens / Icons
-#### 12 Col / Fractional / Flexbox / Rows / Modal / Drawer / Section / Card / Chart / Spacing
-#### Button / Tooltip / Message / Status / Chip / Tabs / Avatar / Marker
-#### Popover / Colorpicker / Multiselector / Datepicker / Checkbox / Radio / Toggle / Slider / Field / Search / Sort
-#### Content / Table / Graph / Progress
-#### Sidenav / Breadcrumb / Subnav
-#### Stories
+
+## Library
+## Util
+## Layout
+## Element
+## Input
+## Data
+## Nav
+## Story
+
+---
+
+### Design Tokens / Design Assets / Docsite
+### Tokens / Icons
+### 12 Col / Fractional / Flexbox / Rows / Modal / Drawer / Section / Card / Chart / Spacing
+### Button / Tooltip / Message / Status / Chip / Tabs / Avatar / Marker
+### Popover / Colorpicker / Multiselector / Datepicker / Checkbox / Radio / Toggle / Slider / Field / Search / Sort
+### Content / Table / Graph / Progress
+### Sidenav / Breadcrumb / Subnav
+### Stories
+
 ---
 # Some action items
 

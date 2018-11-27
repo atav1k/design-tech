@@ -14,7 +14,7 @@
   "scripts": {
     "start": "start-storybook -p 9009 -c storybook",
     "docsite": "mdx-go docs",
-    "deck": "mdx-deck docs/deck.mdx",
+    "deck": "mdx-deck deck.mdx",
     "build": "build-storybook -s public"
   },
   "eslintConfig": {
